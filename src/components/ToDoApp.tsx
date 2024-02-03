@@ -1,9 +1,8 @@
-type Props = {}
 import { useState } from "react"
 import { ListaTareas } from "./ListaTareas";
 import { Tarea } from "./Tarea";
 
-export const ToDoApp = (props: Props) => {
+export const ToDoApp = () => {
     const [nuevaTarea, setNuevaTarea] = useState<string>(''); //Le decimos al useState que el tipo de datp que recibirá e un <strinh>
     const [listaTareas, setListaTareas] = useState<string[]>([]) //L dicemis al useState que el tipo de dato que recibirá será un <array de string>
     const handleAddTask = () => {
