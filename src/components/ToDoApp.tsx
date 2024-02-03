@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { ListaTareas } from "./ListaTareas";
-import { Tarea } from "./Tarea";
+// import { Tarea } from "./Tarea";
 
 export const ToDoApp = () => {
     const [nuevaTarea, setNuevaTarea] = useState<string>(''); //Le decimos al useState que el tipo de datp que recibirá e un <strinh>
